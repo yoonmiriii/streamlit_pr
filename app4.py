@@ -71,19 +71,10 @@ def main() :
 
     st.info(f'선택한 나이는 {age}세 입니다.')
 
-    # 믹스펜더
+    # 익스펜더
     with st.expander('Hello') :
         st.text('데이터 프레임 입니다.')
         st.dataframe(df)
-
-
-
-
-    
-
-
-
-
 
 
 if __name__ == '__main__' :
